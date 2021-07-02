@@ -67,6 +67,9 @@ body { background-color: #373737; color: white;}
 .az-historical {
     width: 30%;
     font-size: 20px;
+    background: linear-gradient(90deg, #373737 0%, rgba(108,133,109,1) 100%);
+    margin: 2% 0;
+    padding: 2% 1%;
 }
 
 .az-cuisine-type--first {
