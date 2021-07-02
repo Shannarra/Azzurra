@@ -129,7 +129,7 @@ body { background-color: #373737; color: white;}
 }
 
 #comments {
-    height: calc(1.5rem + 100px);
+    height: calc(1.5rem + 135px);
     margin-bottom: 25px;
 }
 
@@ -186,6 +186,22 @@ body { background-color: #373737; color: white;}
 .az-hours {
     padding-top: 10%;
 }
+
+.az-form {
+    width: 40vw; 
+    background-color: #6C856D; 
+
+    margin: -12% 0 10% 10%;
+    padding-left: 5%; 
+    padding-top: 5%;
+    border-radius: 10%;
+}
+
+.az-form > h1 {
+    padding-bottom: 5%;
+}
+
+.az-form > input { background-color: rgb(175, 174, 174);}
 
 @media screen and (max-width: 600px) {
     img {
