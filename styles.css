@@ -11,6 +11,7 @@
 body { background-color: #373737; color: white;}
 
 
+
 .az-nav-link {
     float: right;
     font-size: 22px;
@@ -202,6 +203,15 @@ body { background-color: #373737; color: white;}
 }
 
 .az-form > input { background-color: rgb(175, 174, 174);}
+
+/**
+* !WARNING a dirty fix that might not work everywhere 
+*/
+@media screen and (min-width: 1200px) { 
+    #page-nav > .collapse {
+        margin-right: calc(-10vw - 20%);
+    }
+}
 
 @media screen and (max-width: 600px) {
     img {
