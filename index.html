@@ -138,18 +138,18 @@
                         Food is delivered to festive occasions - receptions, anniversaries, birthdays, company parties, meetings, family parties, etc. Some exciting, varied menus have been established, but if you have any special wishes, we will try to fulfill them to the best of our ability. In addition to the food, we also deliver wine that is tailored to the selected menus.
                     </p>
                     <p>
-                        Contant <u>+45 98 16 41 22</u> regarding private events and caterings!
+                        Contact <u>+45 98 16 41 22</u> regarding private events and caterings!
                     </p>
                 </aside>
                 <img class="col-md-5" src="./photos-video/caterings.jpg" alt="caterings">
             </article>
-        </section>
-
-        <section class="section row" id="whatPeopleThink">
             <div class="col-lg-6"></div>
             <div class="col align-self-end az-historical">
                 We started importing our vegetables and Italian ingredients from Italian vegetable markets. Our raw materials are imported to this day from Sicily, we have get the season's fresh and tasty fruits and vegetables of high quality directly from the Italian marketplace.
             </div>
+        </section>
+
+        <section class="section row" id="whatPeopleThink">
             <div class="az-reviews">
                 <hr id="line-style-reviews">
                 <h3 style="padding: 25px;">What People Think?</h3>
@@ -190,32 +190,32 @@
         <section class="row section az-contacts" style="margin-top: 10%" id="reservations">
             <div class="col-md-5" src="" alt=""></div>
             <div class="col-md-6 az-form">
-                <h1 class="text-center">Experience Italian atmosphere</h1>
+                <h3 class="text-center" id="form-heading">Experience Italian atmosphere</h3>
                 <form class="form-horizontal" action="#">
                     <section class="row">
                          <div class="col-md-6">
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Name: <span class="text-danger">*</span></label>
+                                <label class="control-label col-sm-3" for="email">Name <span class="text-danger">*</span></label>
                                 <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    <input type="email" class="input-field" id="email" placeholder="Name Surname" name="email">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-10" for="phone">Phone Number: <span class="text-danger">*</span></label>
+                                <label class="control-label col-sm-10" for="phone">Phone Number <span class="text-danger">*</span></label>
                                 <div class="col-sm-10">          
-                                    <input type="password" class="form-control" id="phone" placeholder="Enter phone number" name="phone">
+                                    <input type="password" class="input-field" id="phone" placeholder="00000000" name="phone">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="time">Time: <span class="text-danger">*</span></label>
+                                <label class="control-label col-sm-3" for="time">Time <span class="text-danger">*</span></label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="time" placeholder="Enter time of reservation" name="time"> <!--cannot add DateTimePicker with only the vanilla stuff :( -->
+                                    <input type="text" class="input-field" id="time" placeholder="Enter time of reservation" name="time"> <!--cannot add DateTimePicker with only the vanilla stuff :( -->
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-4" for="location-select">Location: <span class="text-danger">*</span></label>
+                                <label class="control-label col-sm-4" for="location-select">Location <span class="text-danger">*</span></label>
                                 <div class="col-sm-10">
-                                    <select class="form-select" name="place" id="location-select" onchange="setPlace()">
+                                    <select class="input-field" name="place" id="location-select" onchange="setPlace()">
                                         <option value="Jens Bangs Gade">Jens Bangs Gade</option>
                                         <option value="Nordkraft">Nordkraft</option>
                                     </select>          
@@ -233,20 +233,20 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Email: <span class="text-danger">*</span></label>
+                                <label class="control-label col-sm-3" for="email">Email <span class="text-danger">*</span></label>
                                 <div class="col-sm-10">          
-                                    <input type="password" class="form-control" id="email" placeholder="Enter email" name="mail">
+                                    <input type="password" class="input-field" id="email" placeholder="example@mail.com" name="mail">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="comments">Comments:</label>
+                                <label class="control-label col-sm-2" for="comments">Comments</label>
                                 <div class="col-sm-10">          
-                                    <textarea class="form-control" id="comments" placeholder="Enter comment" name="comment"></textarea>
+                                    <textarea class="input-field" id="comments" placeholder="I would like to..." name="comment"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-10">
-                                    <input type="submit" class="form-control" value="Make a reservation!">
+                                    <input  class="reservation-button" type="submit" class="form-control" value="Make a reservation!">
                                 </div>
                             </div>
                         </div>
@@ -255,7 +255,7 @@
             </div>
         </section>
     </main>
-    <footer class="row" style="padding-top: 1%;">
+    <footer class="row" style="padding-top: 5%;">
         <aside class="col-md-4" style="padding-left: 2%; margin-right: -10%;">
             <div class="row">
                 <h1 class="col-md-1 fab fa-facebook-square"></h1>
