@@ -264,3 +264,12 @@ select option{
     background-color: #212529;
     color: white;
 }
+
+.menu-links{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-links:hover{
+    color: rgb(41,42,45);
+}
